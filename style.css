@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffcc70, #ff8c00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.egg-img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#timer {
+    font-size: 40px;
+    margin: 20px 0;
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+button:nth-child(1) { background: #28a745; }
+button:nth-child(2) { background: #ffc107; color: black; }
+button:nth-child(3) { background: #dc3545; }
+
+button:hover {
+    opacity: 0.85;
+}
