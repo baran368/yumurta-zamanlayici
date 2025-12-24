@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yumurta Haşlama Zamanlayıcısı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🥚 Yumurta Zamanlayıcısı</h1>
+
+    <img src="img/egg.png" class="egg-img" alt="Yumurta">
+
+    <select id="eggType">
+        <option value="240">Rafadan (4 dk)</option>
+        <option value="360">Orta (6 dk)</option>
+        <option value="480">Katı (8 dk)</option>
+    </select>
+
+    <div id="timer">00:00</div>
+
+    <div class="buttons">
+        <button onclick="startTimer()">Başlat</button>
+        <button onclick="pauseTimer()">Durdur</button>
+        <button onclick="resetTimer()">Sıfırla</button>
+    </div>
+</div>
+
+<audio id="alarmSound" src="sound/alarm.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
